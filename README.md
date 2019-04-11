@@ -19,14 +19,11 @@ Then open dlnd_face_generation.ipynb.
 3. The [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). 
 4. PyTorch and Torchvision. For installation instructions see [Udacity's README in the Deep Learning repository](https://github.com/udacity/deep-learning-v2-pytorch "Title").
 
-## Tips
-#### Watch out for size mismatch. 
-Almost all the challenges I ran into with this project happened as a result of size mismatch. Read the comments in my code to see where I had these problems and how I solved them.
-
 ## Known Issues
 * CELEB(A) dataset is highly biased based on race and facial symetry. 
 * This model should be trained for aproximately 7 epochs, rather than 10.
-* Generator should drop lower; I a model wherein it, by incresing g_conv_dim to 128, reducing batch_size to 32, and using xavier-normal weight initalization, adding dropout to the discriminator, and activating label smoothing - however the quality of the generated images decreased.
+* Generator loss should drop lower.
+* I tried incresing g_conv_dim to 128, reducing batch_size to 32, and using xavier-normal weight initalization, adding dropout to the discriminator, and activating label smoothing - and that did substantially lower the generator loss, however the quality of the generated images decreased.
 
 ## Authors
 - @technoempathy – Layla Messner 
