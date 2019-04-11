@@ -3,7 +3,7 @@
 
 #### Generates new images based on a dataset of celebrity pictures.
 ## Getting Started
-### Step 1: Review my code in [dlnd_face_generation.ipynb](https://github.com/technoempathy/face-generator/blob/master/dlnd_face_generation.ipynb "Title") and see my results in [bike_sharing.ipynb](https://github.com/technoempathy/bike_sharing/blob/master/bike_sharing.ipynb "Title").
+### Step 1: Review my code in [dlnd_face_generation.ipynb](https://github.com/technoempathy/face-generator/blob/master/dlnd_face_generation.ipynb "Title").
 
 ### Step 2: Do this project yourself
 To make your own Face Generator, go [here](https://github.com/udacity/deep-learning-v2-pytorch "Title") and clone the repository.
