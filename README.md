@@ -1,5 +1,5 @@
 ### Face Generator
-# Train a deep convolutional GAN to generate new images
+# Generate images of human faces
 
 #### Generates new images based on a dataset of celebrity pictures.
 ## Getting Started
